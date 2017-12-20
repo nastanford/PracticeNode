@@ -18,7 +18,7 @@ app.set('views', 'app/views');
 // ///////////////////////////
 // Set some Global Variables
 // ///////////////////////////
-app.locals.siteTitle = 'NodeJS App';
+app.locals.siteTitle = 'Practice Node';
 
 // ///////////////////////////
 // Controllers or Routes
@@ -34,4 +34,4 @@ var server = app.listen(app.get('port'), function() {
 	console.log('Listening on port ' + app.get('port'));
 });
 
-reload(server, app);
+reload(app);
